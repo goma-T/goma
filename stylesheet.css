@@ -7,24 +7,43 @@ a {
   text-decoration: none;
 }
 
-
-
-
-.header{
-  background-color:green;
+.content{
+  width:80vw;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.header_links{
+
+header{
+  width:100%;
+  background-color:green;
+  height:60px;
+  position:fixed;
+}
+
+#header_links{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
+}
+
+.fixedsticky {
+  top:0;
 }
 
 .link_to_content{
   color:black;
 }
 
-
 .main{
   margin:0;
 }
 
+#about_me{
+  margin-top:100px;
+  height:500px;
+  background-color:red;
+}
+
+#works{
+  height:1500px;
+}
