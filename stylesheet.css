@@ -9,3 +9,22 @@ a {
 
 
 
+
+.header{
+  background-color:green;
+}
+
+.header_links{
+  display:flex;
+  justify-content:space-between;
+}
+
+.link_to_content{
+  color:black;
+}
+
+
+.main{
+  margin:0;
+}
+
